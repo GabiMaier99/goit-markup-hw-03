@@ -41,6 +41,10 @@ body {
   background: #ffffff;
 }
 
+.images {
+  display: block;
+  max-width: 100%;
+}
 .header {
   border-bottom: 1px solid var(--accent);
   display: flex;
@@ -109,6 +113,7 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 .link {
   text-decoration: none;
@@ -164,8 +169,12 @@ body {
 }
 
 .section-one-button {
-  display: flex;
+  display: block;
   align-items: center;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 
 .second-section {
@@ -176,6 +185,14 @@ body {
 .second-section-list {
   display: flex;
   gap: 24px;
+}
+
+.first-second-section-list {
+  width: calc((100% - 72px) / 4);
+}
+
+.first-three-section-list {
+  width: calc((100% - 48px) / 3);
 }
 
 .third-section {
@@ -234,12 +251,23 @@ body {
 .primary-section {
   background-color: #2e2f42;
   text-align: center;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .primary-title {
   letter-spacing: 0.02em;
   font-size: 56px;
   line-height: 1.07em;
   color: #ffffff;
+}
+
+.section-two {
+  padding-top: 120px;
+  padding-top: 120px;
+}
+
+.section-three {
+  padding-bottom: 120px;
 }
 
 .hero-button {
@@ -271,13 +299,24 @@ body {
   font-size: 36px;
   line-height: 1.11em;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 .team-section {
   background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .team-member {
   background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
+
+.team-section-lists {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 .sub-title {
   letter-spacing: 0.02em;
   font-weight: 500;
@@ -285,6 +324,7 @@ body {
   line-height: 1.2em;
   color: #2e2f42;
   margin-bottom: 8px;
+  text-align: center;
 }
 
 .sub-text {
@@ -292,9 +332,12 @@ body {
   line-height: 1.5em;
   color: #434455;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 .footer-content {
   background-color: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .footer-text {
@@ -303,6 +346,11 @@ body {
 }
 .footer-content .span {
   color: #f4f4fd;
+}
+
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .button {
