@@ -55,7 +55,7 @@ body {
 .container {
   width: 1158px;
   margin: 0 auto;
-  display: flex;
+  /* display: flex; */
   padding: 0 15px;
 }
 
@@ -276,23 +276,23 @@ body {
   padding-bottom: 120px;
 }
 
-.button-first-section {
-  display: block;
-  min-width: 169px;
-}
-
 .hero-button {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5em;
   letter-spacing: 0.04em;
+  word-wrap: break-word;
   background: #4d5ae5;
   color: #fff;
   cursor: pointer;
   align-items: center;
   border: none;
   border-radius: 4px;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  margin: 0 auto;
 }
 .hero-button:hover {
   background-color: #404bbf;
