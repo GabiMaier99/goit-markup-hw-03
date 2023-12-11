@@ -100,8 +100,8 @@ body {
 }
 
 .logo {
-  margin-bottom: 16px;
   display: inline-block;
+  margin-bottom: 16px;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
@@ -154,8 +154,6 @@ body {
 
 .section-one {
   display: flex;
-  height: 600px;
-  padding: 188px 472px 188px 472px;
   align-items: center;
   flex-direction: column;
   justify-content: center;
@@ -221,7 +219,6 @@ body {
 }
 
 .footer-section {
-  height: 312px;
   display: flex;
   flex-direction: column;
 }
