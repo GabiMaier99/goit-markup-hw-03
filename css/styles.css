@@ -60,13 +60,17 @@ body {
 }
 
 .visually-hidden {
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  height: 1px;
-  overflow: hidden;
   position: absolute;
-  white-space: nowrap;
   width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 /* Classes */
@@ -164,7 +168,6 @@ body {
 
 .second-section {
   display: flex;
-  padding: 120px 156px 120px 156px;
 }
 
 .second-section-list {
@@ -174,10 +177,12 @@ body {
 
 .first-second-section-list {
   width: calc((100%-72px) / 4);
+  text-decoration: none;
 }
 
 .first-three-section-list {
   width: calc((100%-48px) / 3);
+  text-decoration: none;
 }
 
 .portfolio-section-card {
