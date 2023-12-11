@@ -178,7 +178,8 @@ body {
 
 .first-second-section-list {
   text-decoration: none;
-  width: calc(100% - 72px) / 4;
+  width: 100%;
+  min-width: 264px;
 }
 
 .first-three-section-list {
