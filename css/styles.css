@@ -180,8 +180,7 @@ body {
 
 .first-second-section-list {
   text-decoration: none;
-  width: 100%;
-  min-width: 264px;
+  width: 264px;
 }
 
 .first-three-section-list {
@@ -190,7 +189,7 @@ body {
 }
 
 .portfolio-section-card {
-  flex-basis: calc((100% - 48px) / 3);
+  width: 264px;
   text-decoration: none;
 }
 
