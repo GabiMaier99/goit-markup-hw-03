@@ -329,7 +329,7 @@ body {
   line-height: 1.2em;
   color: var(--hero-background);
   margin-bottom: 8px;
-  text-align: center;
+  text-align: start;
 }
 
 .sub-text {
@@ -337,7 +337,7 @@ body {
   line-height: 1.5em;
   color: var(--text);
   letter-spacing: 0.02em;
-  text-align: center;
+  text-align: start;
 }
 .footer-content {
   background-color: var(--dark);
